@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactTyped } from "react-typed";
 import heroBgImage from "../../assets/images/hero-bg.jpg";
 const Hero = () => {
   return (
@@ -8,17 +9,13 @@ const Hero = () => {
       <div className="container" data-aos="fade-up" data-aos-delay="100">
         <h2>محمد افروزه</h2>
         <p>
-          من یک
-          <span
-            className="typed"
-            data-typed-items="فول استک, توسعه دهنده, فریلنسر, برنامه نویس"
-          >
-            فول استک
-          </span>
-          <span
-            className="typed-cursor typed-cursor--blink"
-            aria-hidden="true"
-          ></span>
+          من یک{" "}
+          <ReactTyped
+            strings={["فول استک", "فریلنسر", "برنامه نویس", "توسعه دهنده"]}
+            typeSpeed={50}
+            backSpeed={50}
+            loop
+          />
           <span
             className="typed-cursor typed-cursor--blink"
             aria-hidden="true"

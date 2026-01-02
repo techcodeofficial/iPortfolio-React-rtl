@@ -10,6 +10,11 @@ export default [
     text: "درباره",
   },
   {
+    icon: "bi-arrow-through-heart-fill",
+    hash: "#skills",
+    text: "مهارت ها",
+  },
+  {
     icon: "bi-file-earmark-text",
     hash: "#resume",
     text: "سوابق کاری",
