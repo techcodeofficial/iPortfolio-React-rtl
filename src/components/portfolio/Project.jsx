@@ -1,6 +1,16 @@
-import React from "react";
-
+import { confirmAlert } from "react-confirm-alert";
 const Project = ({ title, subTitle, image }) => {
+  const zoomingPicture = () => {
+    confirmAlert({
+      customUI: () => {
+        return (
+          <div>
+            <img src={image} className="img-fluid" alt="" />
+          </div>
+        );
+      },
+    });
+  };
   return (
     <div className="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
       <div className="portfolio-content h-100">
@@ -9,8 +19,8 @@ const Project = ({ title, subTitle, image }) => {
           <h4>{title}</h4>
           <p>{subTitle}</p>
           <a
-            href={image}
-            title="App 1"
+            onClick={zoomingPicture}
+            title={title}
             data-gallery="portfolio-gallery-app"
             className="glightbox preview-link"
           >
