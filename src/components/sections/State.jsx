@@ -6,8 +6,8 @@ const State = () => {
     <section id="stats" className="stats section">
       <div className="container" data-aos="fade-up" data-aos-delay="100">
         <div className="row gy-4">
-          {statesData.map((item) => (
-            <StateItem {...item} />
+          {statesData.map((item, i) => (
+            <StateItem key={i} {...item} />
           ))}
         </div>
       </div>
