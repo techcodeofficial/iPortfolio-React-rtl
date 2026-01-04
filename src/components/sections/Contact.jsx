@@ -1,11 +1,13 @@
 import React from "react";
-
+import SectionHeader from "../common/SectionHeader";
 const Contact = () => {
   return (
     <section id="contact" className="contact section">
       <div className="container section-title" data-aos="fade-up">
-        <h2>تماس بگیرید</h2>
-        <p>عواقب نیازهای او در واقع فرار از چیزی است او می خواهد دنبال شود</p>
+        <SectionHeader
+          title="تماس بگیرید"
+          body="عواقب نیازهای او در واقع فرار از چیزی است او می خواهد دنبال شود"
+        />
       </div>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">
