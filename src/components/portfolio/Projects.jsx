@@ -1,4 +1,3 @@
-import React from "react";
 import projectsData from "../../constants/projectsData";
 import Project from "./Project";
 const Projects = ({ filterId }) => {

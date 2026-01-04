@@ -1,4 +1,3 @@
-import React from "react";
 import NavItems from "./NavITems";
 const Nav = () => {
   return (

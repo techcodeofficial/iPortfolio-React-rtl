@@ -1,4 +1,3 @@
-import React from "react";
 import statesData from "../../constants/statesData";
 import StateItem from "../state/StateItem";
 const State = () => {

@@ -1,6 +1,4 @@
-import React from "react";
-
-export const SectionHeader = ({ title, body }) => {
+const SectionHeader = ({ title, body }) => {
   return (
     <div className="container section-title" data-aos="fade-up">
       <h2>{title}</h2>

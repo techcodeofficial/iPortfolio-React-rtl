@@ -1,5 +1,3 @@
-import React from "react";
-
 const SocialNetworks = () => {
   return (
     <div className="social-links text-center">

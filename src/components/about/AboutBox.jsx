@@ -1,4 +1,3 @@
-import React from "react";
 import AboutItem from "./AboutItem";
 import { col1, col2 } from "../../constants/personalAboutItemData";
 const AboutBox = () => {

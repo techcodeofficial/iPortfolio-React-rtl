@@ -1,4 +1,3 @@
-import React from "react";
 const AboutItem = ({ lable, text }) => {
   return (
     <li>

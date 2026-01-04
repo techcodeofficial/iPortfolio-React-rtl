@@ -1,4 +1,3 @@
-import React from "react";
 import SectionHeader from "../common/SectionHeader";
 import ResumeBox from "../resume/ResumeBox";
 const Resume = () => {

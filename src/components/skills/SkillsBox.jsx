@@ -1,4 +1,3 @@
-import React from "react";
 import { col1, col2 } from "../../constants/skkillsData";
 import SkillsItem from "./SkillsItem";
 const SkillsBox = () => {

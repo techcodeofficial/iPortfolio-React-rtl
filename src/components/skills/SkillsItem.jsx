@@ -1,4 +1,3 @@
-import React from "react";
 import ProgressBar from "@ramonak/react-progress-bar";
 const SkillsItem = ({ name, value }) => {
   return (

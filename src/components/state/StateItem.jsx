@@ -1,6 +1,4 @@
-import React from "react";
-
-export const StateItem = ({ type, body, icon }) => {
+const StateItem = ({ type, body, icon }) => {
   return (
     <div className="col-lg-3 col-md-6">
       <div className="stats-item">

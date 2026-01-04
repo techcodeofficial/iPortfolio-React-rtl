@@ -1,5 +1,3 @@
-import React from "react";
-
 const NavItem = ({ icon, hash, text }) => {
   return (
     <li>

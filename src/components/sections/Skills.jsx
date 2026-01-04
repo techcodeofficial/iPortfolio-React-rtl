@@ -1,4 +1,3 @@
-import React from "react";
 import SkillsBox from "../skills/SkillsBox";
 import SectionHeader from "../common/SectionHeader";
 const Skills = () => {

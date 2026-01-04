@@ -1,6 +1,4 @@
-import React from "react";
-
-export const ResumeItem = ({ title, subTitle, body, list }) => {
+const ResumeItem = ({ title, subTitle, body, list }) => {
   return (
     <>
       <h3 className="resume-title">{title}</h3>

@@ -1,4 +1,3 @@
-import React from "react";
 import portfolioTabsData from "../../constants/portfolioTabsData";
 const Tabs = ({ filterId, setFilterId }) => {
   return (

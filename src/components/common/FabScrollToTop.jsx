@@ -1,4 +1,3 @@
-import React from "react";
 const FabScrollToTop = ({ showScrollToTop }) => {
   return (
     <a

@@ -1,4 +1,3 @@
-import React from "react";
 import serviceData from "../../constants/serviceData";
 import ServiceItem from "./ServiceItem";
 const ServiceBox = () => {

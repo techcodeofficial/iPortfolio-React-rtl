@@ -1,4 +1,3 @@
-import React from "react";
 import { col1, col2 } from "../../constants/resumeData";
 import ResumeItem from "./ResumeItem";
 const ResumeBox = () => {

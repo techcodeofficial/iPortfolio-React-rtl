@@ -1,4 +1,3 @@
-import React from "react";
 import SectionHeader from "../common/SectionHeader";
 import myProfileImage from "../../assets/images/my-profile-img.jpg";
 import AboutBox from "../about/AboutBox";
