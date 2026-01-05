@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 const ServiceItem = ({ title, body, icon }) => {
   return (
     <div
@@ -10,9 +11,9 @@ const ServiceItem = ({ title, body, icon }) => {
       </div>
       <div>
         <h4 className="title">
-          <a href="service-details.html" className="stretched-link">
+          <Link to="/service-detail" className="stretched-link">
             {title}
-          </a>
+          </Link>
         </h4>
         <p className="description">{body}</p>
       </div>

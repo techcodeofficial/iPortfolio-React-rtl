@@ -1,5 +1,6 @@
+import { Link } from "react-router";
 import { confirmAlert } from "react-confirm-alert";
-const Project = ({ title, subTitle, image }) => {
+const Project = ({ title, subTitle, image, id }) => {
   const zoomingPicture = () => {
     confirmAlert({
       customUI: () => {
@@ -26,13 +27,13 @@ const Project = ({ title, subTitle, image }) => {
           >
             <i className="bi bi-zoom-in"></i>
           </a>
-          <a
-            href="portfolio-details.html"
+          <Link
+            to={`/portfolio-detail/${id}`}
             title="More Details"
             className="details-link"
           >
             <i className="bi bi-link-45deg"></i>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
